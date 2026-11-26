@@ -107,3 +107,20 @@ Many improvements are coming! All tasks will be posted to our GitHub issue track
 
 Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved.
 This file is licensed under the Apache Software License, v. 2 except as noted otherwise in the [LICENSE](LICENSE) file.
+
+## Ficha del proyecto
+
+Monorepo Angular con la plantilla TUA para un storefront Spartacus de SAP Commerce.
+
+### Contenido
+
+- [projects](./projects), [LICENSES](./LICENSES), [angular.json](./angular.json), [package.json](./package.json), [projects/tua-spa/package.json](./projects/tua-spa/package.json).
+
+### Uso
+
+Consulta [package.json](./package.json) para los scripts y [angular.json](./angular.json) para los proyectos y las opciones de compilación.
+
+### Origen
+
+- [Repositorio de origen](https://github.com/mac2394q/avon-base-tua-spartacus-angular-base-template-recipes)
+- Licencia de origen en [LICENSE](./LICENSE).
