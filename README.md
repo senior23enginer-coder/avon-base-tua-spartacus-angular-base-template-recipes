@@ -124,3 +124,16 @@ Consulta [package.json](./package.json) para los scripts y [angular.json](./angu
 
 - [Repositorio de origen](https://github.com/mac2394q/avon-base-tua-spartacus-angular-base-template-recipes)
 - Licencia de origen en [LICENSE](./LICENSE).
+
+<!-- station-x-repository-guide:start -->
+
+## Guía de esta copia
+
+### Estructura y alcance
+[projects](./projects) agrupa el código del workspace, incluidos los componentes TUA. [angular.json](./angular.json) identifica sus proyectos y objetivos de compilación. [config.yaml](./config.yaml) acompaña la configuración de la plantilla.
+### Preparación y comprobación
+Usa las versiones de Angular y Spartacus declaradas en [package.json](./package.json). Configura un backend SAP Commerce y los sitios base del ambiente de desarrollo según los requisitos originales. Los scripts disponibles incluyen `npm run start`, `npm run build`, `npm run test` y `npm run lint`.
+### Cambios de storefront
+Verifica el flujo que cambie con el backend de prueba. La configuración de un ambiente, sus credenciales y las licencias de terceros se gestionan junto con [LICENSES](./LICENSES) y los requisitos del proyecto.
+
+<!-- station-x-repository-guide:end -->
